@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vue3 on 爱心网 - Aixin.me</title>
+    <link>https://aixin.me/tags/vue3/</link>
+    <description>Recent content in Vue3 on 爱心网 - Aixin.me</description>
+    <image>
+      <url>https://aixin.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://aixin.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 10 Nov 2020 13:54:51 +0800</lastBuildDate><atom:link href="https://aixin.me/tags/vue3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vue3 开发 Todolist 教程</title>
+      <link>https://aixin.me/post/vue-todo-tutorial/</link>
+      <pubDate>Tue, 10 Nov 2020 13:54:51 +0800</pubDate>
+      
+      <guid>https://aixin.me/post/vue-todo-tutorial/</guid>
+      <description>本文状态：未完成
+ 一、产品原型  参考 Windows todo设计一个简单的移动端todo页面原型
+ 二、开发教程 1、新建Todolist.vue  先通过脚手架配置好vue项目：@vue/cli
+ 在项目src\views下面新建Todo.vue
+&amp;lt;template&amp;gt;&amp;lt;div class=&amp;quot;todo&amp;quot;&amp;gt;&amp;lt;h1&amp;gt;Todolist&amp;lt;/h1&amp;gt;&amp;lt;input type=&amp;quot;text&amp;quot; v-model=&amp;quot;content&amp;quot; @keypress=&amp;quot;add&amp;quot;&amp;gt;&amp;lt;button @click=&amp;quot;add&amp;quot;&amp;gt;Add&amp;lt;/button&amp;gt;&amp;lt;p&amp;gt;{{content}}&amp;lt;/p&amp;gt;&amp;lt;div class=&amp;quot;section-title&amp;quot;&amp;gt;待办&amp;lt;/div&amp;gt;&amp;lt;ul class=&amp;quot;todolist underway&amp;quot;&amp;gt;&amp;lt;TodoItem :=&amp;quot;todo&amp;quot; v-for=&amp;quot;todo in underway&amp;quot; :key=&amp;quot;todo.id&amp;quot; :class=&amp;quot;{done:todo.status}&amp;quot; v-model=&amp;quot;todo.status&amp;quot; /&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;div class=&amp;quot;section-title&amp;quot;&amp;gt;已完成&amp;lt;/div&amp;gt;&amp;lt;ul class=&amp;quot;todolist completed&amp;quot;&amp;gt;&amp;lt;TodoItem :=&amp;quot;todo&amp;quot; v-for=&amp;quot;todo in completed&amp;quot; :key=&amp;quot;todo.id&amp;quot; :class=&amp;quot;{done:todo.status}&amp;quot; v-model=&amp;quot;todo.status&amp;quot; /&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/template&amp;gt;&amp;lt;script&amp;gt;import TodoItem from &#39;../components/TodoItem&#39;;export default {name: &amp;quot;Todo&amp;quot;,components:{TodoItem},data(){return{content:&#39;hello world!</description>
+    </item>
+    
+    <item>
+      <title>Vue3 基础知识点</title>
+      <link>https://aixin.me/post/vue3-base-tutorials/</link>
+      <pubDate>Thu, 05 Nov 2020 16:04:12 +0800</pubDate>
+      
+      <guid>https://aixin.me/post/vue3-base-tutorials/</guid>
+      <description>安装VUE npm install webpack -gnpm install webpack-cli -gnpm install -g @vue/cli @vue/cli-service-globalvue create hello-worldnpm run servenpm run build基本框架 &amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt;&amp;lt;p&amp;gt;{{ message }}&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;{{ content() }}&amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt;var vm = new Vue({el: &#39;#app&#39;,data: {message: &#39;Hello&#39;},methods: {content: function(){return this.message + &#39; Vue.js&#39;;}}})说明： vue代码结构：
+new Vue({el: &#39;#app&#39;,//根元素data: { //变量message: &#39;Hello&#39;},methods: { //函数方法content: function(){return this.</description>
+    </item>
+    
+  </channel>
+</rss>
